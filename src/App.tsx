@@ -1,10 +1,11 @@
 import React from "react"
 import tw from "twin.macro"
 import "./assets/main.css"
-import content   from "./logo.svg"
+import { ReactComponent as Logo }   from "./logo.svg"
 
 const Header = tw.h1`text-blue-700 text-6xl`
 const StyleApp = tw.div`bg-gray-200 h-screen`
+const StyledLogo = tw(Logo)`text-red-500 bg-green-500 h-10 w-10`
 
 function* range(x:number, y:number) {
   while (true) {
@@ -14,18 +15,17 @@ function* range(x:number, y:number) {
       return null
   }
 }
-/*
-l.map((x,i) => { return (
-  <Header>{x.toString()}</Header>
-)}*/
-
-
 function App() {
   const l = Array.from(range(0,2000))
   return (
     <StyleApp className="App">
-      <img src={content} />
+      <StyledLogo alt="logo"/>
       <Header>learn react</Header>
+      {
+        l.map((x,i)=>{
+          return <div key={i}>{x}</div>
+        })
+      }
     </StyleApp>
   )
 }
