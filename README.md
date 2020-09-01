@@ -6,7 +6,7 @@ It implements the following functionalities:
 
 - Support of TailwindCSS 1.7.6
 - Support of Typescript 4.0.2
-- Svg import as ReactComponenst
+- Svg import as ReactComponent
 - Styled components thanks to twin.macro 1.8 and @emotion/styled 10.0.27
 
 ## Available Scripts
