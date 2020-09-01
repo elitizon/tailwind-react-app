@@ -1,31 +1,20 @@
 import React from "react"
 import tw from "twin.macro"
 import "./assets/main.css"
-import { ReactComponent as Logo }   from "./logo.svg"
+import { ReactComponent as Logo } from "./logo.svg"
 
-const Header = tw.h1`text-blue-700 text-6xl`
+const Header = tw.h1`text-blue-700 text-6xl text-center`
 const StyleApp = tw.div`bg-gray-200 h-screen`
-const StyledLogo = tw(Logo)`text-red-500 bg-green-500 h-10 w-10`
+const LogoContainer = tw.div`w-full flex flex-col p-10 items-center justify-center`
+const StyledLogo = tw(Logo)`text-blue-500 h-40 w-40 inline-block`
 
-function* range(x:number, y:number) {
-  while (true) {
-    if (x <= y)
-      yield x++
-    else
-      return null
-  }
-}
 function App() {
-  const l = Array.from(range(0,2000))
   return (
     <StyleApp className="App">
-      <StyledLogo alt="logo"/>
+      <LogoContainer>
+        <StyledLogo alt="logo" />
+      </LogoContainer>
       <Header>learn react</Header>
-      {
-        l.map((x,i)=>{
-          return <div key={i}>{x}</div>
-        })
-      }
     </StyleApp>
   )
 }

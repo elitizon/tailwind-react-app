@@ -611,6 +611,12 @@ video {
   background-color: rgba(237, 242, 247, var(--bg-opacity));
 }
 
+.bg-green-500 {
+  --bg-opacity: 1;
+  background-color: #48bb78;
+  background-color: rgba(72, 187, 120, var(--bg-opacity));
+}
+
 .h-10 {
   height: 2.5rem;
 }
