@@ -35,7 +35,7 @@ jobs:
     - name: Generate coverage code
       uses: codecov/codecov-action@v1
       with:
-        file: coverage.xml
+        file: clover.xml
         directory: ./output/coverage/jest/
         flags: unittest
         name: codecov-umbrella
