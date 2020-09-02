@@ -9,7 +9,7 @@ It implements the following functionalities:
 - Svg import as ReactComponent
 - Styled components thanks to [twin.macro](https://www.npmjs.com/package/twin.macro) 1.8 and [@emotion/styled](https://emotion.sh/docs/styled) 10.0.27
 
-## Available Scripts
+## 🔌 Available Scripts
 
 In the project directory, you can run:
 
@@ -46,7 +46,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 📚 Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
@@ -54,6 +54,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Created with 💗 by [Elitizon Ltd](https://www.elitizon.com)
 
-## Licence
+## 🔖 Licence
 
 This package is free and open-source software licensed under the [MIT license](https://github.com/elitizon/create-react-app/blob/master/LICENCE.md).
