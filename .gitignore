@@ -11,6 +11,9 @@
 # production
 /build
 
+# Test coverage output
+/output
+
 # misc
 .DS_Store
 .env.local

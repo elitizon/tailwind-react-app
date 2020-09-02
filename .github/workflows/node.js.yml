@@ -30,11 +30,13 @@ jobs:
       run: yarn build
     - name: test
       run: yarn test
+    - name: coverage
+      run: yarn coverage
     - name: Generate coverage code
       uses: codecov/codecov-action@v1
       with:
         file: ./coverage.xml
-        directory: ./coverage/reports/
+        directory: ./output/coverage/jest/
         flags: unittest
         name: codecov-umbrella
         fail_ci_if_error: true
