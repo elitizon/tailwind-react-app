@@ -24,20 +24,20 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: setup environment
+    - name: Setup environment
       run: yarn install
-    - name: build
+    - name: Build
       run: yarn build
-    - name: test
+    - name: Unit Tests
       run: yarn test
-    - name: coverage
+    - name: Unit Tests Coverage generation
       run: yarn coverage
     - name: Generate coverage code
       uses: codecov/codecov-action@v1
       with:
-        file: ./coverage.xml
+        file: coverage.xml
         directory: ./output/coverage/jest/
         flags: unittest
         name: codecov-umbrella
         fail_ci_if_error: true
-        path_to_write_report: ./coverage/codecov_report.gz
+        path_to_write_report: codecov_report.gz
