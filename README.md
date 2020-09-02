@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 It implements the following functionalities:
 
-- Support of TailwindCSS 1.7.6
-- Support of Typescript 4.0.2
+- Support of [TailwindCSS](https://tailwindcss.com/) 1.7.6
+- Support of [Typescript](https://www.typescriptlang.org/) 4.0.2
 - Svg import as ReactComponent
-- Styled components thanks to twin.macro 1.8 and @emotion/styled 10.0.27
+- Styled components thanks to [twin.macro](https://www.npmjs.com/package/twin.macro) 1.8 and [@emotion/styled](https://emotion.sh/docs/styled) 10.0.27
 
 ## Available Scripts
 
@@ -53,3 +53,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 Created with 💗 by [Elitizon Ltd](https://www.elitizon.com)
+
+## Licence
+
+
