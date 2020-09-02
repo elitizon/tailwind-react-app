@@ -1,7 +1,7 @@
 {
   "name": "@elitzon/tailwind-react",
   "version": "1.0.0",
-  "private": true,
+  "private": "false",
   "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "@emotion/core": "^10.0.35",
