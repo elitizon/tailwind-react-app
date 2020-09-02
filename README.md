@@ -4,6 +4,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/elitizon/create-react-app)](https://github.com/elitizon/create-react-app/issues)
 
 
+
 # Elitizon create-react-app v1.0 ✨
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
