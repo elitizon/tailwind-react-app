@@ -6,7 +6,7 @@
   "homepage": "https://github.com/elitizon/create-react-app/blob/master/README.md",
   "author": {
     "email": "contact@elitizon.com",
-    "name": "elitizon"
+    "name": "@elitizon"
   },
   "publishConfig": { "registry": "https://npm.pkg.github.com" },
   "license": "MIT",
