@@ -1,5 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+[![codecov](https://codecov.io/gh/elitizon/create-react-app/branch/master/graph/badge.svg)](https://codecov.io/gh/elitizon/create-react-app)
 
 # Elitizon create-react-app v1.0 ✨
 
