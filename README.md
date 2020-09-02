@@ -59,7 +59,9 @@ Created with 💗 by [Elitizon Ltd](https://www.elitizon.com)
 
 ## CI/CD
 
-We use [Codecov.io](https://codecov.io/) to manage the unit tests coverage
+The CI/CD is based on [Github Actions](https://github.com/elitizon/create-react-app/actions) 🏗
+
+We use [Codecov.io](https://codecov.io/) to manage the unit tests coverage ✅
 
 ## 🔖 Licence
 
