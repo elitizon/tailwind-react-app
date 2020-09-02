@@ -57,6 +57,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Created with 💗 by [Elitizon Ltd](https://www.elitizon.com)
 
+## CI/CD
+
+We use [Codecov.io](https://codecov.io/) to manage the unit tests coverage
+
 ## 🔖 Licence
 
 This package is free and open-source software licensed under the [MIT license](https://github.com/elitizon/create-react-app/blob/master/LICENCE.md).
