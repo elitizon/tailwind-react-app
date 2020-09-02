@@ -14,10 +14,14 @@
     "@types/react-dom": "^16.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
+    "react-scripts": "^3.4.3",
     "tailwindcss": "^1.7.6",
     "twin.macro": "^1.8.0",
     "typescript": "^4.0.2"
+  },
+  "resolutions": {
+    "chokidar": ">=3.4.0",
+    "@testing-library/dom": ">=7.21.4"
   },
   "scripts": {
     "start": "yarn watch:css && react-scripts start",
@@ -45,5 +49,26 @@
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.2"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/path/to/dir/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    },
+    "coverageReporters": [
+      "text"
+    ],
+    "snapshotSerializers": [
+      "my-serializer-module"
+    ]
   }
 }
