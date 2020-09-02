@@ -1,3 +1,5 @@
+https://opensource.org/licenses/MIT
+
 # Elitizon create-react-app v1.0 ✨
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
