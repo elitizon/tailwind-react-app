@@ -27,7 +27,7 @@
     "start": "yarn watch:css && react-scripts start",
     "build": "yarn build:css && react-scripts build",
     "test": "react-scripts test",
-    "coverage":"yarn test --coverage --watchAll=false --coverageDirectory=output/coverage/jest",
+    "coverage":"yarn test --coverage --watchAll=false --coverageDirectory=./output/coverage/jest",
     "eject": "react-scripts eject",
     "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
     "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
