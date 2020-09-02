@@ -8,7 +8,7 @@
     "email": "contact@elitizon.com",
     "name": "elitizon"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/elitizon" },
   "license": "MIT",
   "dependencies": {
     "@emotion/core": "^10.0.35",
