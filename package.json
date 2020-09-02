@@ -1,5 +1,5 @@
 {
-  "name": "elitzon/tailwind-react",
+  "name": "@elitzon/create-react-app",
   "version": "1.0.0",
   "description": "A create-react-script template with tailwindcss and typsecript",
   "keywords": ["reactjs","tailwindcss"],
@@ -8,6 +8,7 @@
     "email": "contact@elitizon.com",
     "name": "@elitizon"
   },
+  "repository": "git://github.com/elitizon/create-react-app.git",
   "publishConfig": { "registry": "https://npm.pkg.github.com" },
   "license": "MIT",
   "dependencies": {
