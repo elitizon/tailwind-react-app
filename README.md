@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/elitizon/create-react-app/branch/master/graph/badge.svg)](https://codecov.io/gh/elitizon/create-react-app)
 [![gitter](https://img.shields.io/gitter/room/elitizon/community?color=blueviolet&style=flat-square)](https://gitter.im/elitizon/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-![Github All Contributors](https://img.shields.io/github/all-contributors/elitizon/create-react-app/master)
+
 
 # Elitizon create-react-app v1.0 ✨
 
