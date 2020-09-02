@@ -56,4 +56,4 @@ Created with 💗 by [Elitizon Ltd](https://www.elitizon.com)
 
 ## Licence
 
-
+This package is free and open-source software licensed under the [MIT license](https://github.com/elitizon/create-react-app/blob/master/LICENCE.md).
