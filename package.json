@@ -1,5 +1,5 @@
 {
-  "name": "@elitzon/create-react-app",
+  "name": "@elitizon/create-react-app",
   "version": "1.0.0",
   "description": "A create-react-script template with tailwindcss and typsecript",
   "keywords": ["reactjs","tailwindcss"],
