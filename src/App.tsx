@@ -1,6 +1,6 @@
 import React from "react"
 import tw from "twin.macro"
-import "./assets/main.css"
+import "./assets/tailwind.css"
 import { ReactComponent as Logo } from "./logo.svg"
 
 const Header = tw.h1`text-blue-700 text-6xl text-center`

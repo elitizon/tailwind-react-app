@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.4",
     "@emotion/styled": "^11.0.0",
     "@testing-library/dom": ">=7.21.4",
     "@testing-library/jest-dom": "^5.11.4",
@@ -37,8 +38,8 @@
     "@testing-library/dom": ">=7.21.4"
   },
   "scripts": {
-    "start": "yarn watch:css && react-scripts start",
-    "build": "yarn build:css && react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "coverage": "yarn test --coverage --watchAll=false --coverageDirectory=./output/coverage/jest",
     "eject": "react-scripts eject",
