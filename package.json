@@ -2,7 +2,10 @@
   "name": "@elitizon/tailwind-react-app",
   "version": "1.0.0",
   "description": "A create-react-script template with tailwindcss and typsecript",
-  "keywords": ["reactjs","tailwindcss"],
+  "keywords": [
+    "reactjs",
+    "tailwindcss"
+  ],
   "homepage": "https://github.com/elitizon/create-react-app/blob/master/README.md",
   "author": {
     "email": "contact@elitizon.com",
@@ -11,20 +14,22 @@
   "repository": "git://github.com/elitizon/create-react-app.git",
   "license": "MIT",
   "dependencies": {
-    "@emotion/core": "^10.0.35",
-    "@emotion/styled": "^10.0.27",
+    "@emotion/core": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@testing-library/dom": ">=7.21.4",
     "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^10.4.9",
+    "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.1.3",
     "@types/jest": "^26.0.12",
     "@types/node": "^14.6.2",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.3",
-    "tailwindcss": "^1.7.6",
-    "twin.macro": "^1.8.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "chokidar": ">=3.4.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1",
+    "tailwindcss": "^2.0.2",
+    "twin.macro": "^2.0.8",
     "typescript": "^4.0.2"
   },
   "resolutions": {
@@ -35,7 +40,7 @@
     "start": "yarn watch:css && react-scripts start",
     "build": "yarn build:css && react-scripts build",
     "test": "react-scripts test",
-    "coverage":"yarn test --coverage --watchAll=false --coverageDirectory=./output/coverage/jest",
+    "coverage": "yarn test --coverage --watchAll=false --coverageDirectory=./output/coverage/jest",
     "eject": "react-scripts eject",
     "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
     "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
@@ -57,8 +62,8 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.10.4",
-    "autoprefixer": "^9.8.6",
-    "postcss-cli": "^7.1.2"
+    "autoprefixer": "^10.2.1",
+    "postcss-cli": "^8.3.1"
   },
   "jest": {
     "collectCoverageFrom": [

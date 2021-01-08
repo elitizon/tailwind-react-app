@@ -5,16 +5,16 @@
 
 
 
-# Elitizon create-react-app v1.0 ✨
+# Elitizon create-react-app v1.1 ✨
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 It implements the following functionalities:
 
-- Support of [TailwindCSS](https://tailwindcss.com/) 1.7.6
-- Support of [Typescript](https://www.typescriptlang.org/) 4.0.2
+- Support of [TailwindCSS](https://tailwindcss.com/) 2.0.2
+- Support of [Typescript](https://www.typescriptlang.org/) 4.X
 - Svg import as ReactComponent
-- Styled components thanks to [twin.macro](https://www.npmjs.com/package/twin.macro) 1.8 and [@emotion/styled](https://emotion.sh/docs/styled) 10.0.27
+- Styled components thanks to [twin.macro](https://www.npmjs.com/package/twin.macro) 2.X and [@emotion/styled](https://emotion.sh/docs/styled) 11.X
 
 ## 🔌 Available Scripts
 
