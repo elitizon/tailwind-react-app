@@ -63,6 +63,7 @@
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.10.4",
     "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.3",
     "postcss-cli": "^8.3.1"
   },
   "jest": {
