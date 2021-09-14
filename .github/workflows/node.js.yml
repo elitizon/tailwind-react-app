@@ -33,7 +33,7 @@ jobs:
     - name: Unit Tests Coverage generation
       run: yarn coverage
     - name: Generate coverage code
-      uses: codecov/codecov-action@v1
+      uses: codecov/codecov-action@v2.1.0
       with:
         file: ./output/coverage/jest/clover.xml
         directory: ./output/coverage/jest/
